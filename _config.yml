@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
+title: Connie學習筆記
+subtitle: '前端筆記 | 學習雜記'
 description: ''
 keywords:
-author: John Doe
-language: en
+author: Connie
+language: tw-zh
 timezone: ''
 
 # URL
@@ -102,4 +102,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/conie29445/note.git
+  branch: deploy
